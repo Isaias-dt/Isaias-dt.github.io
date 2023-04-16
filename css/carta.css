@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Ubuntu', sans-serif; */
+}
+body{
+    width: 100%;
+    background-image: url("../img/background-2.png");
+}
+
+div#carta {
+    background-image: url("../img/papiro.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.container-text {
+    padding: 10px;
+    width: 28%;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Parisienne', cursive, sans-serif;
+    overflow-y: auto;
+    height: 50%;
+}
+
+h3 {
+    margin-bottom: 5% !important;
+}
+
+p#assBy {
+    text-align: right;
+}
+
+p {
+    margin-bottom: 3% !important;
+}
+
+.container-header
+{
+    background-color: rgba(60, 60, 60, .5);
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (max-width: 1600px) {
+    div.container-text {
+        width: 60%;
+        font-size: 2.0em;
+        overflow-y: auto;
+        height: 30%;
+    }
+}
